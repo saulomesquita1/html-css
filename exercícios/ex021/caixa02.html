@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+
+        *{
+            margin: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 3em;
+            background-color: aqua;
+        }
+
+        header{
+            background-color: black;
+        }
+        
+
+        header nav{
+            padding: 10px 40px;
+        }
+
+        header nav a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        header nav a{
+            margin-right: 30px;
+        }
+
+        #assuntos{
+            background-color: yellow;
+            padding: 10px;
+        }
+
+        #assuntos h2{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 2em;
+        }
+
+        #assuntos blockquote{
+            text-indent: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.3em;
+            padding: 30px 10px;
+        }
+
+        #assuntos footer{
+            text-align: right;
+        }
+
+        #rodape{
+            background-color: black;
+            padding: 10px;
+        }
+
+        #rodape p{
+            text-align: center;
+            color: white;
+        }
+
+        #rodape p a{
+            text-decoration: none;
+            color: white;
+        }
+
+        #rodape p span{
+            border: 2px solid red;
+            background-color: red;
+            padding: 2px;
+            border-radius: 5px;
+            margin-right: 1px;
+        }
+    </style>
+</head>
+<body>
+    <h1> BEATIFUL DAY</h1>    
+    <header>
+            <nav>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+            </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <h2>Assunto</h2>
+            <blockquote>
+                "A vida é sofrer."
+            </blockquote>
+            <footer>
+                <cite>- Clóvis de Barros</cite>
+            </footer>
+        </section>
+    </main>
+
+    <footer id="rodape">
+        <p><span><a href="https://www.youtube.com/shorts/78_4zD48q9Y" target="_blank">CLIQUE AQUI</a></span> para parar de sofrer</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,121 @@
+*{
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle{
+    position: absolute;
+    z-index: auto;
+    bottom: 0px;
+    right: 0px;
+    background-color: red;
+    width: 600px;
+    height: 600px;
+    border-top-left-radius: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px;
+}
+
+header img{
+    height: 40px;
+    margin-left: 60px;
+}
+
+header nav ul{
+    position: relative;
+    display: flex;
+    margin-right: 60px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    padding: 90px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+span{
+    color: red;
+    font-size: 130px;
+    font-weight: 700;
+}
+
+p{
+    max-width: 50%;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+input{
+    background-color: red;
+    font-weight: 700;
+    padding: 11px;
+    border-radius: 20px;
+    margin-top: 40px;
+    transition: 0.3s;
+}
+
+input:hover{
+    margin-top: 35px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+section img{
+    position: relative;
+    height: 500px;
+}
+
+.boximg{
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+
+.boximg img{
+    height: 500px;
+}
+
+.boximg .coca1{
+    transform: rotate(-15deg);
+}
+
+.boximg .coca2{
+    transform: rotate(5deg);
+    height: 350px;
+}
+
+.boximg .coca3{
+    transform: rotate(13deg);
+    height: 350px;
+}
+
+.boximg .coca4{
+    transform: rotate(-15deg);
+    height: 400px;
+}

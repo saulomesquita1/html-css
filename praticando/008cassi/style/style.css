@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --color1: #24BEE8;
+    --color2: #1A89A8;
+    --color3: #14677E;
+
+    --colorface: #748BBC;
+    --colorfacehover: #8aa0ce;
+
+    --colortwitter: #29C5F6;
+    --colortwitterhover: #6bd2f1;
+
+    --colorpinterest: #CA212A;
+    --colorpinteresthover: #e23d45;
+
+    --colorwhatsapp: #7BBF6A;
+    --colorwhatsapphover: #9fd691;
+    
+    --colorlink: #219deb;
+    --colorfooter: #0D0D0D;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+header{
+    background-image: linear-gradient(180deg, var(--color1), var(--color2));
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.596);
+}
+
+header img{
+    width: 250px;
+    margin: 30px;
+}
+
+header nav{
+    padding-bottom: 15px;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+header nav a:hover{
+    background-color: var(--color1);
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.headersocial{
+    background-color: var(--color2);
+    padding: 10px;
+    margin:  0px -10px -10px -10px;
+
+}
+
+.headersocial a{
+    color: white;
+    font-size: 12px;
+}
+
+#lupa{
+    font-size: 13px;
+}
+
+main{
+    max-width: 1140px;
+    margin: auto;
+    padding: 20px;
+}
+
+main h1{
+    font-weight: normal;
+}
+
+#history{
+    color: rgb(167, 167, 167);
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-indent: 0px;
+}
+
+#history span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.backblack{
+    list-style-type: none;
+    text-decoration: none;
+    margin: -10px 0px;
+}
+
+.backblack li{
+    display: inline-block;
+    background-color: #0D0D0D;
+    color: white;
+    padding: 4px;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+.backblack li a{
+    color: white;
+}
+
+main article h1{
+    font-size: 3em;
+    margin: 20px 0px;
+}
+
+#grayem{
+    color: gray;
+    margin-bottom: 25px;
+    font-size: 1.4em;
+    text-indent: 0px;
+}
+
+cite{
+    font-size: 14px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px ;
+}
+
+.social li{
+    list-style-type: none;
+    margin-right: 10px;
+    color: white;
+}
+
+.social li a{
+    color: white;
+    text-decoration: none;
+}
+
+#facebook{
+    background-color: var(--colorface);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#facebook:hover{
+    background-color: var(--colorfacehover);
+}
+
+#twitter{
+    background-color: var(--colortwitter);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#twitter:hover{
+    background-color: var(--colortwitterhover);
+}
+
+#pinterest{
+    background-color: var(--colorpinterest);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#pinterest:hover{
+    background-color: var(--colorpinteresthover);
+}
+
+#whatsapp{
+    background-color: var(--colorwhatsapp);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#whatsapp:hover{
+    background-color: var(--colorwhatsapphover);
+}
+
+main img{
+    max-width: 900px;
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+    width: 100%;
+}
+
+figcaption{
+    text-indent: 121px;
+    margin: 5px 0px 20px 0px;
+    font-size: 12px;
+}
+
+main p{
+    font-size: 20px;
+    text-indent: 30px;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+main h2{
+    margin-bottom: 30px;
+    font-size: 34px;
+}
+
+main p a{
+    text-decoration: none;
+    color: var(--colorlink);
+}
+
+main p a:hover{
+    text-decoration: underline;
+}
+
+main ul{
+    margin-bottom: 60px;
+}
+
+main ul li{
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
+main ul li a{
+    text-decoration: none;
+    color: var(--colorlink);
+}
+
+main ul li a:hover{
+    text-decoration: underline;
+}
+
+.video{
+    text-align: center;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.video iframe{
+    width: 1200px;
+    height: 680px;
+    width: 100%;
+}
+
+hr{
+    margin: 50px 0px;
+}
+
+footer{
+    background-color: var(--colorfooter);
+    text-align: center;
+    columns: 2;
+    padding: 10px;
+    font-size: 14px;
+}
+
+footer p{
+    color: white;
+    display: inline-block;
+}
+
+footer #footernav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer #footernav a:hover{
+    text-decoration: underline;
+}

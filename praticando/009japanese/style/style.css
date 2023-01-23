@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: '3017';
+    src: url(../fonts/3017.ttf);
+}
+
+@font-face {
+    font-family: 'japab';
+    src: url(../fonts/JAPAB___.TTF);
+}
+
+:root{
+    --font-japan1: '3017';
+    --font-japan2: 'japab';
+
+    --color1: #111111;
+    --color2: #FF0000;
+    --color3: #707070;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Sofia Sans', sans-serif;
+    background-color: var(--color3);
+}
+
+header{
+    background-color: var(--color1);
+    padding: 50px;
+}
+
+#logo{
+    display: inline-block;
+    text-align: right;
+}
+
+#logo h1{
+    font-family: var(--font-japan1);
+    color: white;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+#logo p{
+    font-family: var(--font-japan1);
+    color: var(--color2);
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: -10px;  
+}
+
+hr{
+    color: var(--color3);
+    height: 0.1px;
+}
+
+nav{
+    background-color: var(--color1);
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+main{
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    padding: 20px 40px;
+}
+
+main article h1{
+    font-size: 40px;
+    font-family: var(--font-japan1);
+    background-color: rgba(255, 0, 0, 0.678);
+    text-indent: 10px;
+    margin-bottom: 20px;
+}
+
+main article p{
+    text-indent: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+main article img{
+    max-width: 800px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
